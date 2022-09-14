@@ -33,6 +33,7 @@ Structure of the repository -
     │   ├── plot.py (handles plots)
     │   ├── preprocess.py (Data preprocessing)
     ├── notebooks	
+    |   ├── api_connection.ipynb(setting up api connection with CO:here)
     │   ├── eda.ipynb (overview of the Data)
     │   ├── preprocess.ipynb (Preparing the data)
     │   ├── model.ipynb (LLM model)
