@@ -15,7 +15,7 @@ Prompt engineer Large Language Models for news scoring and Named Entity Extracti
 
 # Data
 
-The data used for this project can be found [News_scoring]https://docs.google.com/spreadsheets/d/19N_K6SnIm0FylD2TBs-5y3WeSgdveb3J/edit#gid=293715615 and [named_entity]https://github.com/walidamamou/relation_extraction_transformer/blob/main/relations_dev.txt
+The data used for this project can be found [News scoring](https://docs.google.com/spreadsheets/d/19N_K6SnIm0FylD2TBs-5y3WeSgdveb3J/edit#gid=293715615) and [named_entity](https://github.com/walidamamou/relation_extraction_transformer/blob/main/relations_dev.txt)
 
 # Repository overview
 Structure of the repository -
