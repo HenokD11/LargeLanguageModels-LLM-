@@ -51,4 +51,4 @@ class Logger:
         Returns:
             logging.Logger: logger object.
         """
-        return self.
+        return self.logger
