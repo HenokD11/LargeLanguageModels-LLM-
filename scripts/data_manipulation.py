@@ -6,9 +6,9 @@ sys.path.append(os.path.abspath(os.path.join('..')))
 sys.path.insert(0, '../scripts/')
 sys.path.insert(0, '../logs/')
 
-from log_helper import App_Logger
+from logger import Logger
 
-app_logger = App_Logger("../logs/data_manipulator.log").get_app_logger()
+app_logger = Logger("../logs/data_manipulator.log").get_app_logger()
 
 class DataManipulator:
     def __init__(self, df: pd.DataFrame, deep=False):
@@ -22,7 +22,7 @@ class DataManipulator:
             -------
             None
         """
-        self.logger = App_Logger(
+        self.logger = Logger(
             "../logs/data_manipulator.log").get_app_logger()
         if(deep):
             self.df = df.copy(deep=True)
