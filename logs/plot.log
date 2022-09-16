@@ -1,0 +1,4 @@
+09-16-2022 04:58:59 : INFO : logger : Successfully initialized util Object
+09-16-2022 04:59:38 : INFO : logger : Successfully initialized util Object
+09-16-2022 04:59:38 : INFO : logger : Successfully initialized data cleaner Object
+09-16-2022 05:02:30 : INFO : logger : converted ['timestamp'] to date time
