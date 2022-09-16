@@ -1,6 +1,5 @@
 from cgitb import text
 from turtle import pos
-from typing_extensions import Self
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import Normalizer, MinMaxScaler, StandardScaler
