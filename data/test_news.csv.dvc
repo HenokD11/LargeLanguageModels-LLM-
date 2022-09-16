@@ -1,0 +1,4 @@
+outs:
+- md5: 3e442211c0575e307fd17beeeeb02507
+  size: 11184
+  path: test_news.csv

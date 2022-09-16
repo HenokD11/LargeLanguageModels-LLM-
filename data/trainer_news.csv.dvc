@@ -1,0 +1,4 @@
+outs:
+- md5: edaa7bc44c457d3b87fe854178c53898
+  size: 40251
+  path: trainer_news.csv
