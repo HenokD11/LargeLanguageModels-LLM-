@@ -1,6 +1,5 @@
 from cgitb import text
 from turtle import pos
-from typing_extensions import Self
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import Normalizer, MinMaxScaler, StandardScaler
@@ -13,7 +12,7 @@ import re
 import nltk
 from nltk.stem import WordNetLemmatizer, PorterStemmer
 
-class DataCleaner:
+class Processor:
     def __init__(self) -> None:
         """Initilize class."""
         try:
