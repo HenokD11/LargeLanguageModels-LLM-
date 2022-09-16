@@ -1,3 +1,10 @@
 09-16-2022 04:03:06 : INFO : logger : Successfully initialized util Object
 09-16-2022 04:03:08 : INFO : logger : Successfully initialized data cleaner Object
 09-16-2022 04:03:08 : INFO : logger : Successfully initialized data cleaner Object
+09-16-2022 04:18:11 : INFO : logger : successsfuly read ../data/news.csv
+09-16-2022 04:25:52 : INFO : logger : Successfully initialized util Object
+09-16-2022 04:25:53 : INFO : logger : Successfully initialized data cleaner Object
+09-16-2022 04:25:53 : INFO : logger : Successfully initialized data cleaner Object
+09-16-2022 04:26:00 : INFO : logger : successsfuly read ../data/news.csv
+09-16-2022 04:26:12 : INFO : logger : Preparing texts
+09-16-2022 04:28:25 : INFO : logger : Preparing texts
