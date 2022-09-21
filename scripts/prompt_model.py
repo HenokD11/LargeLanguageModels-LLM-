@@ -102,7 +102,7 @@ class Predict:
         test_df=processor.prepare_text(test)
         if "Analyst_Average_Score" in test_df.columns:
             test_df.drop(['Analyst_Average_Score'],axis=1,inplace=True)
-        train_df=pd.read_csv('../data/processed_news.csv').sample()
+        train_df=pd.read_csv('../data/news.csv').sample()
 
         prompt=""
         
@@ -113,7 +113,7 @@ class Predict:
 
         prompt += f"Analyst_Average_Score: "
         # prompt = "Task: Score News relevance\n\n"+prompt
-        with open('../data/sent-prompt.txt', 'w', encoding="utf-8") as f:
+        with open('../data/prompt.txt', 'w', encoding="utf-8") as f:
             f.write(prompt)
         co = cohere.Client(f'{self.api_key}')
         response = co.generate(
